@@ -24,6 +24,8 @@ async function main() {
 
    escritor.Write(Date.now() + ".html", html);
 
+   PDFWriter.WritePDF("teste"+ ".pdf", html);
+
 }
 
 
